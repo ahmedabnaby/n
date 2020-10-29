@@ -117,6 +117,9 @@ body {
 	background-color: #ffffff;
 	-webkit-text-size-adjust: none;
 	-webkit-font-smoothing: subpixel-antialiased;
+	margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6, [class^='heading-'] {
@@ -693,6 +696,7 @@ a[href*='tel'], a[href*='mailto'] {
 .box-minimal {
 	text-align: center;
 }
+
 
 .box-minimal .box-minimal-icon {
 	font-size: 50px;
@@ -5409,7 +5413,7 @@ p.rights a:hover {
 	position: static;
 	right: 0;
 	top: 0;
-	left: 1%;
+	left: 0;
 	bottom: 0;
 	max-width: 850px;
 	padding-top: 30px;
