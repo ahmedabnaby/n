@@ -126,6 +126,19 @@ body {
 	zoom: 75%;
 	}
 
+	#landing-wrapper {
+		display:table;
+		width:100%;
+		background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/ins.jpg');
+		background-position:center top;
+		height:350px;
+	}
+
+	@media screen and (min-width: 1366px) {
+		#resala {margin-top: -110px;}
+	}
+	
+
 h1, h2, h3, h4, h5, h6, [class^='heading-'] {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -5417,7 +5430,7 @@ p.rights a:hover {
 	position: static;
 	right: 0;
 	top: 0;
-	left: 0;
+	left: 57%;
 	bottom: 0;
 	max-width: 850px;
 	padding-top: 30px;
