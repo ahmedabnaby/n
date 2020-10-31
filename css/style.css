@@ -5903,7 +5903,9 @@ html:not(.lt-ie10) .not-animated {
 	transition: .45s all ease-in-out;
 	transform: translate3d(0, 100px, 0);
 }
-
+.theme_color {
+	color: #ff880e;
+}
 .ui-to-top:hover {
 	color: #ffffff;
 	background: #1b1b1b;
